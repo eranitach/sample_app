@@ -3,6 +3,7 @@ ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.2.2'
+gem 'pg', '0.18.4'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '3.6.3'
 gem 'bcrypt-ruby', '3.1.2'
@@ -11,7 +12,7 @@ gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
 
 group :development, :test do
-  gem 'sqlite3', '1.3.8'
+  # gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
   # The following optional lines are part of the advanced setup.
   # gem 'guard-rspec', '2.5.0'
@@ -50,6 +51,5 @@ group :doc do
 end
 
 group :production do
-  gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end
