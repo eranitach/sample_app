@@ -12,10 +12,15 @@ gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
 
 group :development, :test do
+<<<<<<< HEAD
   # gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
+=======
+  gem 'sqlite3', '1.3.8'
+  gem 'rspec-rails', '3.3.2'
+>>>>>>> static-pages
   # The following optional lines are part of the advanced setup.
-  # gem 'guard-rspec', '2.5.0'
+  # gem 'guard-rspec', '4.6.0'
   # gem 'spork-rails', '4.0.0'
   # gem 'guard-spork', '1.5.0'
   # gem 'childprocess', '0.3.6'
