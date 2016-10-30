@@ -18,6 +18,11 @@ default: &default
   username: erani
   password: 1234
 
+test:
+  adapter: postgresql
+  database: test_db
+  prepared_statements: false
+
 development:
   adapter: postgresql
   database: sample_app_db
