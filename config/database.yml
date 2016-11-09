@@ -12,7 +12,8 @@
 
 default: &default
   adapter: postgresql
-  database: sample_app_db
+  encoding: utf8
+  database: sample_app_development
   pool: 5
   host: localhost
   username: erani
@@ -20,18 +21,30 @@ default: &default
 
 test:
   adapter: postgresql
-  database: test_db
-  prepared_statements: false
+  encoding: utf8
+  database: sample_app_test
+  pool: 5
+  host: localhost
+  username: erani
+  password: 1234
 
 development:
   adapter: postgresql
-  database: sample_app_db
-  prepared_statements: false
+  encoding: utf8
+  database: sample_app_development
+  pool: 5
+  host: localhost
+  username: erani
+  password: 1234
 
 production:
   adapter: postgresql
-  database: sample_app_db
-  prepared_statements: false
+  encoding: utf8
+  database: sample_app_production
+  pool: 5
+  host: localhost
+  username: erani
+  password: 1234
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
