@@ -24,7 +24,7 @@ end
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
-  gem 'capybara', '2.2.0'
+  gem 'capybara'
   gem 'factory_girl_rails', '4.2.0'
   gem 'cucumber-rails', '1.4.0', :require => false
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
@@ -44,7 +44,7 @@ gem 'sass-rails', '5.0.6'
 gem 'uglifier', '2.7.2'
 gem 'coffee-rails', '4.0.1'
 gem 'jquery-rails', '3.0.4'
-gem 'turbolinks', '~> 2.5.3'
+gem 'turbolinks'
 gem 'jbuilder', '1.0.2'
 
 group :doc do
