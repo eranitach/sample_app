@@ -1,4 +1,7 @@
 class SessionsController < ApplicationController
+
+  include SessionsHelper
+
   def new
 
   end
@@ -18,4 +21,6 @@ class SessionsController < ApplicationController
   def destroy
 
   end
+
+
 end
